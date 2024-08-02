@@ -1,0 +1,19 @@
+
+.Container{
+    background-color: #ED1B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: antiquewhite;
+}
+
+.Container h1{
+    font-size: 1.5rem;
+}
+
+.Container ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
