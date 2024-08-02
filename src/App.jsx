@@ -1,4 +1,5 @@
 import "./styles.css"
+import Card from "./cards/card"
 import img1 from "./img/image 1.png"
 import img2 from "./img/image 2.png"
 import img3 from "./img/image 3.png"
@@ -22,50 +23,21 @@ export function App(){
 
       <div className="container_cards">
         
-        <div className="card">
-        <img src={img1}/>
-          <p>titulo de teste</p>
-          <p className="description">descrição</p>
-        </div>
+        
 
-        
-        
-        <div className="card">
-        <img src={img2}/>
-          <p>titulo de teste</p>
-          <p className="description">descrição</p>
-        </div>
-
-        
-        
-        <div className="card">
-        <img src={img3}/>
-          <p>titulo de teste</p>
-          <p className="description">descrição</p>
-        </div>
-
-        
-        
-        <div className="card">
-        <img src={img4}/>
-          <p>titulo de teste</p>
-          <p className="description">descrição</p>
-        </div>
-
-
-        
-        
-        <div className="card">
-        <img src={img5}/>
-          <p>titulo de teste</p>
-          <p className="description">descrição</p>
-        </div>
+       <Card titulo="feijoada" descricao="Prato tipíco brasileiro" img={img1}/>
+       <Card titulo="Camarão" descricao="Prato de camarão" img={img2}/>
+       <Card titulo="Coxinha" descricao="Prato tipíco brasileiro" img={img3}/>
+       <Card titulo="Torta de Limão" descricao="Prato tipíco brasileiro" img={img4}/>
+       <Card titulo="Coca-cola" descricao="viciante" img={img5}/>
+       <Card />
+       
 
 
 
       </div>
 
-      <footer className="footer">
+      <footer className="app_footer">
         <p>Todos os direitos reservados - 2024</p>
       </footer>
 
@@ -73,5 +45,7 @@ export function App(){
     </div>
   )
 }
+
+
 
 

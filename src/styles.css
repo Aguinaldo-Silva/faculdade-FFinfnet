@@ -33,24 +33,9 @@
     margin-top: 50px;
 }
 
-.card{
-    background-color: #dedede;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    border-radius: 8px;
 
 
-}
-
-.card .description{
-    font-size: 12px;
-}
-
-.footer{
+.app_footer{
     background-color: #ED1B2E;
     margin-top: 40px;
     padding: 40px;
@@ -58,7 +43,7 @@
 
 }
 
-.footer p{
+.app_footer p{
     text-align: center;
     color: antiquewhite;
 }
