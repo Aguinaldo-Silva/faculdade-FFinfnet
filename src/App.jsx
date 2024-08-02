@@ -1,8 +1,13 @@
 import "./styles.css"
-
+import img1 from "./img/image 1.png"
+import img2 from "./img/image 2.png"
+import img3 from "./img/image 3.png"
+import img4 from "./img/image 4.png"
+import img5 from "./img/image 5.png"
 
 export function App(){
   return(
+    <div>
     <header className="Container">
       <h1> FF infnet</h1>
 
@@ -12,6 +17,60 @@ export function App(){
         <li>quem somos</li>
       </ul>
     </header>
+
+    <h2 className="subtitle">Fast-food Infnet</h2>
+
+      <div className="container_cards">
+        
+        <div className="card">
+        <img src={img1}/>
+          <p>titulo de teste</p>
+          <p className="description">descrição</p>
+        </div>
+
+        
+        
+        <div className="card">
+        <img src={img2}/>
+          <p>titulo de teste</p>
+          <p className="description">descrição</p>
+        </div>
+
+        
+        
+        <div className="card">
+        <img src={img3}/>
+          <p>titulo de teste</p>
+          <p className="description">descrição</p>
+        </div>
+
+        
+        
+        <div className="card">
+        <img src={img4}/>
+          <p>titulo de teste</p>
+          <p className="description">descrição</p>
+        </div>
+
+
+        
+        
+        <div className="card">
+        <img src={img5}/>
+          <p>titulo de teste</p>
+          <p className="description">descrição</p>
+        </div>
+
+
+
+      </div>
+
+      <footer className="footer">
+        <p>Todos os direitos reservados - 2024</p>
+      </footer>
+
+
+    </div>
   )
 }
 
